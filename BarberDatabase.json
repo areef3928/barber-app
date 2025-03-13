@@ -1,0 +1,30 @@
+{
+    "Barber1": {
+        "id": "Barber1",
+        "name": "ช่างเอก",
+        "experience": 10,
+        "specialty": "ตัดผมชาย",
+        "rating": 4.8,
+        "contact": "081-234-5678",
+        "availability": [
+            "2025-02-10",
+            "2025-02-11",
+            "2025-02-12"
+        ],
+        "imageURL": ""
+    },
+    "Barber2": {
+        "id": "Barber2",
+        "name": "ช่างบอย",
+        "experience": 8,
+        "specialty": "ตัดผมแฟชั่น",
+        "rating": 4.6,
+        "contact": "082-345-6789",
+        "availability": [
+            "2025-02-10",
+            "2025-02-13",
+            "2025-02-14"
+        ],
+        "imageURL": ""
+    }
+}

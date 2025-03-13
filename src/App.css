@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+/* สไตล์สำหรับโลโก้ */
+.logo {
+  width: 50px;  /* ปรับขนาดตามต้องการ */
+  height: auto;
+  margin-right: 10px;  /* เพิ่มระยะห่างระหว่างโลโก้กับข้อความ */
+}
+
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #514f4f;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* สไตล์สำหรับฟอร์ม */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 10px; /* ลด padding */
+  margin-bottom: 12px; /* ลด margin */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px; /* ลดขนาดฟอนต์ */
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #4CAF50;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.booking-list {
+  margin-top: 30px;
+}
+
+.booking-item {
+  background-color: #E2E8F0;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-actions button {
+  font-size: 14px;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.edit-button {
+  background-color: #F6E05E;
+}
+
+.edit-button:hover {
+  background-color: #D4C35C;
+}
+
+.delete-button {
+  background-color: #F56565;
+}
+
+.delete-button:hover {
+  background-color: #E53E3E;
+}
+
+.no-booking-text {
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+}
+
+/* Media Queries สำหรับมือถือ */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 26px; /* ลดขนาดหัวข้อบนมือถือ */
+  }
+
+  h2 {
+    font-size: 20px; /* ลดขนาดหัวข้อย่อย */
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .input-field {
+    font-size: 12px; /* ลดขนาดฟอนต์ของ input */
+    padding: 8px; /* ลดขนาด padding ของ input */
+  }
+
+  .submit-button {
+    font-size: 16px; /* ลดขนาดฟอนต์ของปุ่ม */
+    padding: 10px; /* ลดขนาด padding ของปุ่ม */
+  }
+
+  .booking-item {
+    padding: 0.8rem; /* ลดขนาด padding ของการจอง */
+    flex-direction: column; /* จัดวางข้อมูลเป็นแนวตั้ง */
+    align-items: flex-start; /* จัดเรียงข้อมูลทางซ้าย */
+  }
+
+  .booking-actions button {
+    font-size: 12px; /* ลดขนาดปุ่มแก้ไขและลบ */
+    padding: 0.4rem 0.8rem; /* ลดขนาด padding ของปุ่ม */
+  }
+
+  .booking-item div {
+    margin-bottom: 10px; /* เพิ่มระยะห่างระหว่างข้อมูลในรายการการจอง */
+  }
+  .input-field {
+    margin-top: 15px; /* เพิ่มระยะห่างด้านบน */
+  }
+  .submit-button {
+    margin-top: 10px; /* เพิ่มระยะห่างระหว่างปุ่ม */
+  }
+  
+}
